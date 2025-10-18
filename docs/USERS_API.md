@@ -305,8 +305,6 @@ curl -X PATCH http://localhost:3000/users/123e4567-e89b-12d3-a456-426614174000 \
 curl -X DELETE http://localhost:3000/users/123e4567-e89b-12d3-a456-426614174000
 ```
 
----
-
 ## Características Adicionales
 
 ### Métodos Auxiliares en UsersService
@@ -348,3 +346,15 @@ La documentación Swagger proporciona:
    - `ultimaVezActivo`: fecha/hora actual al crear
 
 5. **Ordenamiento:** La lista de usuarios se devuelve ordenada por fecha de creación descendente (más recientes primero).
+
+
+### 6. Obtener Analíticas
+
+**GET** `analytics`
+
+Obtiene las analíticas.
+
+```bash
+curl -X PATCH http://localhost:3000/analytics
+```
+---
